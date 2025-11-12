@@ -5,7 +5,7 @@
 # - Fits an implicit network to the noisy measurements (self-reconstruction)
 # - Relies on the implicit prior + early stopping to avoid overfitting noise
 # - Supports chunked inference and optional full-volume export via memmap
-# Note: This script expects a .npy file [H, W, A1, A2]. For .h5/.hdf5 files, use convert_h5_to_npy.py first.
+# Note: This script expects a .npy file [H, W, A1, A2]. 
 
 import argparse
 import os
